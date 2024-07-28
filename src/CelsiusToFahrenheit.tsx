@@ -1,5 +1,5 @@
+// src/CelsiusToFahrenheit.tsx
 import React, { useState } from 'react';
-import "./Celcius.Farenheit.css";
 
 const CelsiusToFahrenheit: React.FC = () => {
   const [celsius, setCelsius] = useState<number | string>('');
@@ -27,6 +27,7 @@ const CelsiusToFahrenheit: React.FC = () => {
         placeholder="Enter Celsius"
       />
       <p>Fahrenheit: {fahrenheit}</p>
+      <p>This is an improved UI.</p> 
     </div>
   );
 };
